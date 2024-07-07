@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json.schemastore.org/chrome-manifest",
+
+  "manifest_version": 3,
+  "version": "1.0.0",
+  "name": "Поиск по заказам Ozon",
+
+  "action": {
+    "default_popup": "index.html"
+  },
+
+  "permissions": ["scripting"],
+  "host_permissions": ["http://www.ozon.ru/*", "https://www.ozon.ru/*"],
+
+  "icons": {
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "64": "icons/icon64.png"
+  }
+}
